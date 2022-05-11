@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adhoc">
+<test name="RegresiionUsingEgde">
+<parameter name="window" value="Edge"></parameter>
+<classes>
+<class name="piit.AutomationTrainingProgram.FacebookgetText"></class>
+<class name="piit.AutomationTrainingProgram.NewTest"></class>
+</classes>
+</test>
+<test name="RegresiionUsingChrome">
+<parameter name="window" value="Edge"></parameter>
+<classes>
+<class name="piit.AutomationTrainingProgram.FacebookgetText"></class>
+<class name="piit.AutomationTrainingProgram.NewTest"></class>
+</classes>
+</test>
+</suite>
